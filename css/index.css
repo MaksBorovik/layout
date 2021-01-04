@@ -1,0 +1,133 @@
+header{
+	display: flex; 
+	justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+ A{
+    line-height: 20;
+ text-decoration: none;
+}
+ A:hover{
+    text-decoration: underline; /*подчеркивание*/
+}
+.retreat{
+    word-spacing: 30px;
+}
+.faceBlock {
+    height: 700px;
+    width: 1500px;
+    background: url("file:///C:/Users/maks7/Downloads/Advocatus_PSD/rabstol_net_white_collar_16.jpg") 100% 100% no-repeat;
+    background-size: contain;
+}
+.buttonContact{
+   cursor: pointer;
+    background-color: rgb(195, 209, 0);
+    border-radius: 27px;
+    font-size: 15px;
+    height: 50px;
+    width: 120px;
+    position: absolute ;
+    top: 83%;
+    right: 360px;
+}
+  .blockText, .aboutUs, .practic, .regardtext{ 
+    border-left: 3px solid rgb(201, 122, 11); 
+    margin-left: 20%;
+    padding-left: 10px;
+}
+  .blockText{
+top: 73%;
+right: 850px;
+position: absolute ;
+color: rgb(201, 122, 11);
+}
+.history{
+font-size: 13px;
+margin-left: 20%;
+column-count: 2;
+}
+.aboutUs{
+color: rgb(83, 77, 77);
+}
+h1{
+margin-bottom: -25px;
+}
+time{
+  font-weight: bold;
+}
+.practiceArea{
+  background-color: black;
+ color: rgb(223, 204, 177);
+ padding: 3%;
+ font-size: 15px;
+}
+.aboutUsBlock{
+  padding: 3%;
+  margin-left: 2%;
+}
+img{
+  width: 50px;
+}
+.image {
+  float: left;
+}
+p.left{
+  margin-left: 70px;
+}
+.attorney{
+  margin-left: 18%;
+  font-size: 13px;
+}
+  .image1{
+  height: 240px;
+  width: 180px;
+  -o-fit-object: cover;
+} 
+.attorney h3{
+line-height: 0px;
+color: rgb(70, 51, 51);
+}
+.attorney h4{
+  color: rgb(83, 77, 77);
+}
+figure {
+  display: block; /* Блочный элемент */
+  width: 240px; /* Ширина */
+  height: 190px; /* Высота */
+  float: left; /* Блоки выстраиваются по горизонтали */
+  margin: 0 10px 10px 0; /* Отступы */
+  text-align: center; /* Выравнивание по центру */
+ }
+ figure img{
+  -o-fit-object: cover;
+ }
+ figure p {
+  margin-bottom: 0; /* Отступ снизу */
+ }
+.clientsSay {
+  height: 500px;
+  width: 1500px;
+  background:url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Intotalo_avokonttori.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  position: relative;
+  top:150px;
+}
+.regard{
+  position: absolute;
+ background-color: black;
+ opacity: 0.9;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+  .regardtext{
+  margin-left: 20%;
+  color: rgb(223, 204, 177);
+}
+
+ 
